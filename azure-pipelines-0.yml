@@ -1,0 +1,9 @@
+trigger:
+- master  # Adjust the branch name as needed
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Hello Bipeen, World!
+  displayName: 'Print Hello Bipeen, World!'
